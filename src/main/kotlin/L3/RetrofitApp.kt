@@ -1,4 +1,4 @@
-package L2
+package L3
 
 import com.google.gson.Gson
 import retrofit2.Call
@@ -52,6 +52,9 @@ fun main() {
         </html>
     """.trimIndent()
     )
+
+    val readText = File("kotlin.html").readText()
+    println(readText)
 
 
 }
